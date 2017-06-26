@@ -154,7 +154,7 @@
             "adminPassword": "[parameters('vmAdminPassword')]",
             "count": "[int(parameters('vmCount'))]",
             "type": "[int(parameters('vmType'))]"
-        }
+        },
     "LoadBalancer-name": "LB",
     "backend-address-pool-name": "Web",
     "PublicIP-name": "Public-IP",
