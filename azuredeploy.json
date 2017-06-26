@@ -152,7 +152,7 @@
         "vm-settings": {
             "adminUserName": "[parameters('vmAdminUserName')]",
             "adminPassword": "[parameters('vmAdminPassword')]",
-            "count": "[int(parameters('vmCount'))]",
+            "count": "[parameters('vmCount')]",
             "type": "[int(parameters('vmType'))]"
         },
     "LoadBalancer-name": "LB",
